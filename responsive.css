@@ -1,0 +1,217 @@
+@media screen and (max-width: 1400px) {
+  /********************* Navbar Section *********************/
+
+  .navbar {
+    padding: 0 20px;
+  }
+
+  /********************* Hero Section *********************/
+
+  .heroSection {
+    margin: 50px 0;
+    padding: 0 20px;
+  }
+
+  /********************* Service Section *********************/
+
+  .serviceSection {
+    padding: 0 20px;
+  }
+
+  /********************* Pricing Section *********************/
+
+  .pricingSection {
+    padding: 80px 20px 50px 20px;
+  }
+
+  /********************* Feedback Section *********************/
+
+  .feedback {
+    padding: 100px 20px;
+  }
+
+  /********************* Register Section *********************/
+
+  .wrapper {
+    padding: 80px 20px;
+  }
+
+  /********************* Footer Section *********************/
+
+  footer {
+    padding: 100px 20px 20px 20px;
+  }
+}
+
+@media screen and (max-width: 1120px) {
+  /********************* Navbar Section *********************/
+
+  .navbar > .logo {
+    width: 100px;
+  }
+
+  .menu {
+    display: inline-block;
+  }
+
+  .navRight {
+    display: none;
+  }
+
+  /********************* Hero Section *********************/
+
+  .heroCard > .text {
+    margin: 20px 0;
+    max-width: 55vw;
+  }
+
+  .heroCard > img {
+    max-width: 35vw;
+  }
+
+  .heroCard h1 {
+    font-size: 48px;
+  }
+
+  /********************* Service Section *********************/
+
+  .serviceSection > .text > h1 {
+    font-size: 44px;
+  }
+
+  /********************* Pricing Section *********************/
+
+  .pricingSection > h1 {
+    font-size: 44px;
+  }
+
+  /********************* Feedback Section *********************/
+
+  .feedback > .text > h1 {
+    font-size: 44px;
+  }
+
+  /********************* Register Section *********************/
+
+  .wrapper > .text > h1 {
+    color: #ffffff;
+    font-size: 44px;
+  }
+}
+
+@media screen and (max-width: 860px) {
+  /********************* Hero Section *********************/
+
+  .heroCard {
+    justify-content: center;
+    margin: 50px 0;
+  }
+
+  .heroCard > .text {
+    max-width: 90vw;
+  }
+
+  .heroCard > img {
+    max-width: 80vw;
+  }
+
+  .heroCard h1 {
+    font-size: 40px;
+  }
+
+  /********************* Service Section *********************/
+
+  .serviceSection {
+    padding: 0 20px;
+  }
+
+  .serviceSection > .text {
+    gap: 10px;
+  }
+
+  .serviceSection > .text > h1 {
+    font-size: 40px;
+    text-align: center;
+    width: 100%;
+  }
+
+  .serviceSection > .text > .desc {
+    width: 100%;
+    text-align: center;
+  }
+
+  .serviceG {
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 150px;
+  }
+
+  .gItem {
+    width: 80%;
+    margin: 15px 0;
+    text-align: center;
+  }
+
+  /********************* Pricing Section *********************/
+
+  .pricingSection > h1 {
+    font-size: 40px;
+  }
+
+  /********************* Feedback Section *********************/
+
+  .feedbackGrid {
+    grid-template-columns: 1fr;
+    gap: 20px;
+}
+
+  .feedback > .text > h1 {
+    font-size: 40px;
+  }
+
+  .feedback > .text > p {
+    padding: 20px 2vw;
+  }
+
+  /********************* Register Section *********************/
+
+  .wrapper {
+    justify-content: center;
+    gap: 40px;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .wrapper > .text {
+    text-align: center;
+  }
+
+  .wrapper > .text > h1 {
+    font-size: 40px;
+  }
+
+  .wrapper > .text > p {
+    width: 100%;
+    margin-top: 20px;
+  }
+
+  /********************* Footer Section *********************/
+
+  footer {
+    padding: 50px 20px 0 20px;
+    justify-content: space-between;
+    gap: 15px;
+  }
+
+  .footerLogo {
+    width: 100px;
+  }
+
+  footer > .text {
+    width: 40%;
+  }
+
+  .links {
+    display: none;
+  }
+}
